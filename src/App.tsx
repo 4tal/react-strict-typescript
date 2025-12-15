@@ -1,4 +1,4 @@
-export function App() {
+export function App(): JSX.Element {
   return (
     <div style={{ padding: '20px', fontFamily: 'system-ui' }}>
       <h1>Strict TypeScript Project</h1>
