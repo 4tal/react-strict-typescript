@@ -69,6 +69,26 @@ export default tseslint.config(
             }],
             'prefer-template': 'error',
             'no-template-curly-in-string': 'error',
+            'no-restricted-syntax': [
+                'error',
+                {
+                    selector: 'ClassDeclaration',
+                    message: 'Classes are not allowed. Use functions and objects instead.',
+                },
+                {
+                    selector: 'ClassExpression',
+                    message: 'Classes are not allowed. Use functions and objects instead.',
+                },
+                {
+                    selector: 'ImportNamespaceSpecifier',
+                    message: 'Import asterisks (import * as) are not allowed. Use named imports instead.',
+                },
+                {
+                    selector: 'Literal[value=""]',
+                    message: 'Empty strings are not allowed. Use a named constant or template literal if needed.',
+                },
+            ],
+            'sonarjs/no-nested-functions': 'error',
         },
     },
     {
