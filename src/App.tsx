@@ -1,8 +1,10 @@
-export function App(): JSX.Element {
+import type { ReactNode } from "react";
+
+export function App(): ReactNode {
   return (
-    <div style={{ padding: '20px', fontFamily: 'system-ui' }}>
+    <div style={{ padding: "20px", fontFamily: "system-ui" }}>
       <h1>Strict TypeScript Project</h1>
       <p>Welcome to your minimal strict environment.</p>
     </div>
-  )
+  );
 }
