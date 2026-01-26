@@ -13,18 +13,18 @@
     "verify": "turbo run build typecheck lint"
   },
   "dependencies": {
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.11",
-    "@types/node": "^24.10.1",
-    "@types/react": "^19.2.7",
+    "@biomejs/biome": "^2.3.12",
+    "@types/node": "^25.0.10",
+    "@types/react": "^19.2.9",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "turbo": "^2.7.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "turbo": "^2.7.6",
     "typescript": "~5.9.3",
-    "vite": "^7.2.6"
+    "vite": "^7.3.1"
   },
   "packageManager": "pnpm@10.11.0"
 }
